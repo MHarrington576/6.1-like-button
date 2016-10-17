@@ -1,17 +1,29 @@
-
-// Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
-// Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
-
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
+h1 {
+  text-align: center;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.the-button {
+  height: 150px;
+  width: 400px;
+}
+
+#like-count {
+  font-size: 44px;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
 }
